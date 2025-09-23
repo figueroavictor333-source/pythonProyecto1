@@ -1,3 +1,3 @@
 # pythonProyecto1
 
-Alumno: Figueroa Leandro
+Alumno: Figueroa Leandro.
