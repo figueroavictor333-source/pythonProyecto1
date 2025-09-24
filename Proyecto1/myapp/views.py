@@ -1,12 +1,10 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from .models import Estudiante, Profesor, Curso, Entregable
 
 # Create your views here.
 def index(request):
     context = {"mensaje": "Bienvenidos a mi aplicación Django"}
     return render(request, "myapp/index.html", context)
-
-from django.shortcuts import render, get_object_or_404
-from .models import Estudiante, Profesor, Curso, Entregable
 
 
 def lista_estudiantes(request):
